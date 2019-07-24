@@ -35,12 +35,13 @@ img {
   flex-direction: column;
 }
 
-/*header {
+header {
   background: linear-gradient(to bottom, #f2825b 0%, #e2440f 50%, #f07146 100%);
   text-align: center;
   color: #fff;
 }
-header h2 {
+
+/*header h2 {
   margin: 5px;
   line-height: 1;
 }
