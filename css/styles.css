@@ -66,11 +66,12 @@ header h2 {
   display: none;
 }
 
-/*#top .obj input:checked + span img {
+#top .obj input:checked+span img {
   -webkit-filter: grayscale(0);
-          filter: grayscale(0);
+  filter: grayscale(0);
 }
-#top .obj span {
+
+/*#top .obj span {
   display: block;
   width: 40px;
   height: 40px;
