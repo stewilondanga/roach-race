@@ -71,12 +71,13 @@ header h2 {
   filter: grayscale(0);
 }
 
-/*#top .obj span {
+#top .obj span {
   display: block;
   width: 40px;
   height: 40px;
 }
-#top .obj span img {
+
+/*#top .obj span img {
   border-radius: 50%;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
