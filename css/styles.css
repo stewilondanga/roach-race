@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,167 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#pic {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+
+header {
+  background: linear-gradient(to bottom, #f2825b 0%, #e2440f 50%, #f07146 100%);
+  text-align: center;
+  color: #fff;
+}
+header h2 {
+  margin: 5px;
+  line-height: 1;
+}
+
+#top {
+  display: flex;
+  flex: initial;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+#top .obj label {
+  display: block;
+  text-align: center;
+  font-size: 90%;
+}
+#top .obj input {
+  display: none;
+}
+#top .obj input:checked + span img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+#top .obj span {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+#top .obj span img {
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+#top .obj:nth-child(1) label span img {
+  border: 1px solid purple;
+}
+#top .obj:nth-child(1) label span img:hover, #top .obj:nth-child(1) label span img:active {
+  box-shadow: 0 0 1px 1px purple;
+}
+#top .obj:nth-child(2) label span img {
+  border: 1px solid red;
+}
+#top .obj:nth-child(2) label span img:hover, #top .obj:nth-child(2) label span img:active {
+  box-shadow: 0 0 1px 1px red;
+}
+#top .obj:nth-child(3) label span img {
+  border: 1px solid orange;
+}
+#top .obj:nth-child(3) label span img:hover, #top .obj:nth-child(3) label span img:active {
+  box-shadow: 0 0 1px 1px orange;
+}
+#top .obj:nth-child(4) label span img {
+  border: 1px solid blue;
+}
+#top .obj:nth-child(4) label span img:hover, #top .obj:nth-child(4) label span img:active {
+  box-shadow: 0 0 1px 1px blue;
+}
+
+#field {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+#field .cockroach {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+#field .cockroach.active {
+  opacity: 1;
+}
+#field .cockroach.active img {
+  border-radius: 5px;
+  border: 1px solid;
+}
+#field .cockroach#player-1 img {
+  border-color: purple;
+}
+#field .cockroach#player-2 img {
+  border-color: red;
+}
+#field .cockroach#player-3 img {
+  border-color: orange;
+}
+#field .cockroach#player-4 img {
+  border-color: blue;
+}
+
+.btn {
+  width: 100px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: transparent;
+  outline: none;
+  transition: all 0.5s ease;
+}
+.btn.btnGo {
+  border: 1px solid #72aa00;
+}
+.btn.btnGo:hover, .btn.btnGo:active {
+  background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  color: #fff;
+}
+.btn.btnStart {
+  border: 1px solid #ea5507;
+}
+.btn.btnStart:hover, .btn.btnStart:active {
+  background: linear-gradient(to bottom, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%);
+  color: #fff;
+}
+
+#winnerText {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .containers {
