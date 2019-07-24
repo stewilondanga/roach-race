@@ -41,12 +41,12 @@ header {
   color: #fff;
 }
 
-/*header h2 {
+header h2 {
   margin: 5px;
   line-height: 1;
 }
 
-#top {
+/*#top {
   display: flex;
   flex: initial;
   flex-wrap: wrap;
