@@ -56,12 +56,13 @@ header h2 {
   border-bottom: 1px solid #ccc;
 }
 
-/*#top .obj label {
+#top .obj label {
   display: block;
   text-align: center;
   font-size: 90%;
 }
-#top .obj input {
+
+/*#top .obj input {
   display: none;
 }
 #top .obj input:checked + span img {
