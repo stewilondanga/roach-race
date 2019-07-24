@@ -46,7 +46,7 @@ header h2 {
   line-height: 1;
 }
 
-/*#top {
+#top {
   display: flex;
   flex: initial;
   flex-wrap: wrap;
@@ -55,7 +55,8 @@ header h2 {
   background: #fff;
   border-bottom: 1px solid #ccc;
 }
-#top .obj label {
+
+/*#top .obj label {
   display: block;
   text-align: center;
   font-size: 90%;
