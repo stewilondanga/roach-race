@@ -77,12 +77,13 @@ header h2 {
   height: 40px;
 }
 
-/*#top .obj span img {
+#top .obj span img {
   border-radius: 50%;
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-#top .obj:nth-child(1) label span img {
+
+/*#top .obj:nth-child(1) label span img {
   border: 1px solid purple;
 }
 #top .obj:nth-child(1) label span img:hover, #top .obj:nth-child(1) label span img:active {
