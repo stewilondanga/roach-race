@@ -183,7 +183,7 @@ header h2 {
   color: #fff;
 }
 
-/*#winnerText {
+#winnerText {
   opacity: 1;
   position: absolute;
   top: 50%;
@@ -196,10 +196,10 @@ header h2 {
   border-radius: 5px;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
