@@ -130,10 +130,11 @@ header h2 {
   transition: all 0.5s;
 }
 
-/*#field .cockroach.active {
+#field .cockroach.active {
   opacity: 1;
 }
-#field .cockroach.active img {
+
+/*#field .cockroach.active img {
   border-radius: 5px;
   border: 1px solid;
 }
