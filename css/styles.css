@@ -216,7 +216,7 @@ header h2 {
   border-bottom: 3px solid #f3f3f3;
 }
 
-/*.cal {
+.cal {
   display: inline-block;
   background: #ffe;
   color: #555;
@@ -226,7 +226,7 @@ header h2 {
   transition: all 0.2s linear;
 }
 
-.cal:hover {
+/*.cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
 }
