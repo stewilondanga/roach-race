@@ -134,11 +134,12 @@ header h2 {
   opacity: 1;
 }
 
-/*#field .cockroach.active img {
+#field .cockroach.active img {
   border-radius: 5px;
   border: 1px solid;
 }
-#field .cockroach#player-1 img {
+
+/*#field .cockroach#player-1 img {
   border-color: purple;
 }
 #field .cockroach#player-2 img {
