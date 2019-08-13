@@ -165,10 +165,11 @@ header h2 {
   transition: all 0.5s ease;
 }
 
-/*.btn.btnGo {
+.btn.btnGo {
   border: 1px solid #72aa00;
 }
-.btn.btnGo:hover, .btn.btnGo:active {
+
+/*.btn.btnGo:hover, .btn.btnGo:active {
   background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
   color: #fff;
 }
