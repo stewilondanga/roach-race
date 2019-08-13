@@ -178,12 +178,12 @@ header h2 {
   border: 1px solid #ea5507;
 }
 
-/*.btn.btnStart:hover, .btn.btnStart:active {
+.btn.btnStart:hover, .btn.btnStart:active {
   background: linear-gradient(to bottom, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%);
   color: #fff;
 }
 
-#winnerText {
+/*#winnerText {
   opacity: 1;
   position: absolute;
   top: 50%;
